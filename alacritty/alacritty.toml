@@ -13,8 +13,8 @@ padding = { x = 1, y = 1 }
 startup_mode = "Windowed"
 title = "Alacritty"
 
-[shell]
-program = "ubuntu"
+[terminal]
+shell = "ubuntu"
 
 [font]
 size = 13.0
