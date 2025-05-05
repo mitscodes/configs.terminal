@@ -12,9 +12,10 @@ opacity = 1
 padding = { x = 1, y = 1 }
 startup_mode = "Windowed"
 title = "Alacritty"
+dynamic_title = false
 
 [terminal]
-shell = "ubuntu"
+shell = "wsl -d archlinux"
 
 [font]
 size = 13.0
