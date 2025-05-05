@@ -57,8 +57,11 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
-alias c='clear'
 alias la='ls -al'
-alias ff='fastfetch'
+alias q='cd'
 alias zz='yazi'
+alias c='clear'
+alias nv='nvim'
+alias ff='fastfetch'
 alias ht='htop'
+alias qp='exit'
